@@ -1,0 +1,28 @@
+﻿<Window x:Class="DZ5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp2"
+        mc:Ignorable="d"
+        Title="ДЗ №5. Группа: УТС-21. Догадкин Даниил" Height="450" Width="800">
+    <Grid>
+        <Label Content="1-я дробь" HorizontalAlignment="Left" Margin="250,100,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="a_1" HorizontalAlignment="Left" Margin="250,150,0,0" Text="100" TextWrapping="Wrap" VerticalAlignment="Top" PreviewTextInput="NumberValidationTextBox"/>
+        <Label Content="----------" HorizontalAlignment="Left" Margin="250,175,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="a_2" HorizontalAlignment="Left" Margin="250,200,0,0" Text="100" TextWrapping="Wrap" VerticalAlignment="Top" PreviewTextInput="NumberValidationTextBox"/>
+
+        <Button Content="+" HorizontalAlignment="Left" Margin="375,100,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="375,140,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="375,180,0,0" VerticalAlignment="Top" Click="Button_Click_3"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="375,220,0,0" VerticalAlignment="Top" Click="Button_Click_4"/>
+
+        <Label Content="2-я дробь" HorizontalAlignment="Left" Margin="450,100,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="b_1" HorizontalAlignment="Left" Margin="450,150,0,0" Text="100" TextWrapping="Wrap" VerticalAlignment="Top" PreviewTextInput="NumberValidationTextBox"/>
+        <Label Content="----------" HorizontalAlignment="Left" Margin="450,175,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="b_2" HorizontalAlignment="Left" Margin="450,200,0,0" Text="100" TextWrapping="Wrap" VerticalAlignment="Top" PreviewTextInput="NumberValidationTextBox"/>
+
+        <Label Content="Результат вычислений:" HorizontalAlignment="Left" Margin="250,260,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="resoult" HorizontalAlignment="Left" Margin="250,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" IsReadOnly="True"/>
+    </Grid>
+</Window>
